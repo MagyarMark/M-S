@@ -3,6 +3,8 @@ body{
 }
 
 .doboz{
-    width: 300px;
+    color: black;
+    text-decoration-line: underline;
+    width: 1000px;
     margin: 0 auto;
 }
