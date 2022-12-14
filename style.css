@@ -102,3 +102,16 @@ margin-top: 20px;
 #kepmeret{
     width: 8000000px;
 }
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
