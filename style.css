@@ -8,3 +8,94 @@ body{
     width: 1000px;
     margin: 0 auto;
 }
+body{
+    background-color: white;
+}
+
+
+
+.doboz{
+    width: 300px;
+    margin: 0 auto;
+}
+.header{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 100px;
+z-index: 10;
+background:white ;
+}
+header .logo{
+    position: relative;
+    padding-left: 30px;
+    margin-top: 540px;
+
+
+ 
+}
+header  .pg10i{
+    font-size: 23px;
+    text-decoration: none;
+color:rgb(20, 0, 109) ;
+list-style: none;
+}
+
+header  .pg10i .pg10{
+font-size: 23px;
+text-decoration: none;
+color:rgb(20, 0, 109) ;
+list-style: none;
+
+}
+
+
+header .navigation{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 10px 0;
+
+}
+header .navigation li{
+list-style: none;
+margin: 0 10px;
+}
+header .navigation li a{
+color: darkblue;
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 1px;
+} 
+header .navigation li a :hover{
+color:black ;
+}
+.banner{
+background:white;
+padding: 200px 100px 100px;
+min-height: 100vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.banner .content{
+max-width: 700px;
+
+}
+.banner .content h2{
+font-size: 3em;
+color: darkblue;
+}
+.banner .content p{
+font-size: 1em;
+color: darkblue;
+padding: 8px 20px ;
+text-decoration: none;
+font-weight: 600;
+margin-top: 20px;
+}
+
